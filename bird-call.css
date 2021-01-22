@@ -20,9 +20,6 @@
     justify-content: center;         
 }
 
-.logo{
-}
-
 .logo img{
     height: 8vh;
     width: 5vw;
@@ -75,4 +72,33 @@
 .right-nav button:hover{
     font-size: 15px;
     background-color: lightcoral;
+    cursor: pointer;
+}
+
+#back{
+    background-image:url('background/back.jpg');
+    background-repeat:round no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-text{
+    background-color: lightcoral;
+    font-size: 60px;
+    width: 60%;
+    color: wheat;
+    text-align: center;
+}
+
+.bird-back{
+    text-align: center;
+}
+
+.bird-back img{
+    border:3px solid white;
+    border-radius: 50%;
 }
