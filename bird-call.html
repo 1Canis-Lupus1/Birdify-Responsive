@@ -4,63 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="bird-call.css" rel="stylesheet" />
-    <!-- Bootstrap CDN -->
-    <!-- Latest compiled and minified CSS -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossorigin="anonymous"
-    />
-
-    <!-- Optional theme -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-      crossorigin="anonymous"
-    />
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-      crossorigin="anonymous"
-    ></script>
-
     <title>Bird-Calling</title>
   </head>
 
   <body>
-    <h1 class="container">Bird Calling</h1>
-    <hr />
-    <p>Sample Index: Go to page <a href=".end">end</a></p>
-    <div>
+    <div class="navbar">
+      <div class="left-nav">
+      <div class="logo">
+        <img src="logo/logo.png" alt="logo" />
+      </div>
+      <ul class="nav-head">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#">Birds Dropdown</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      </div>
+      <div class="right-nav">
+        <input class="search" type="text" name="text" placeholder="Search Birds By Name" />
+        <button class="btn-search" >Search</button>
+      </div>
+    </div>
+      
+    <div class="content">
       <!-- House Sparrow-->
-      <div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="birds/sparrow.jpeg" alt="House-Sparrow" />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title"><b>House Sparrow</b></h5>
-              <p class="card-text">
-                This is a wider card with supporting text below as a natural
+      <!-- <!-- <div class="header" style="text-align: center;border:2px solid black;margin:50px;padding:20px;"> -->
+        <div class="picture">
+          <img src="birds/sparrow.jpeg" alt="House-Sparrow" style="border:1px dotted cyan" />
+        </div>
+        <div class="name">
+          <h5><b>House Sparrow</b></h5>
+        </div>
+        <hr/>
+        <div class="about">
+          <p>This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-              <p class="card-text">
-                <small class="text-muted"><button id="sparrow">Play</button></small>
-              </p>
-            </div>
-          </div>
+                longer.</p>
+        </div>
+        <div class="play">
+          <button>Play</button>
         </div>
       </div>
-      <hr/>
+      <hr/> -->
 
       <!-- Blue MockingBird-->
-      <div class="card mb-3" style="max-width: 540px">
+      <!-- <div class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="birds/mockingbird.jpeg" alt="Blue-MockingBird" />
@@ -80,7 +68,7 @@
           </div>
         </div>
       </div>
-      <hr/>
+      <hr/> -->
 
       <!-- Brown creeper-->
       <div class="card mb-3" style="max-width: 540px">
@@ -129,7 +117,7 @@
       <hr/>
 
       <!-- Burrowing Owl-->
-      <div class="card mb-3" style="max-width: 540px">
+      <!-- <div class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="birds/owl.jpeg" alt="Burrowing Owl" />
@@ -149,10 +137,10 @@
           </div>
         </div>
       </div>
-      <hr/>
+      <hr/> -->
 
       <!-- BushTit-->
-      <div class="card mb-3" style="max-width: 540px">
+      <!-- <div class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="birds/bushtit.jpeg" alt="BushTit" />
@@ -172,10 +160,10 @@
           </div>
         </div>
       </div>
-      <hr/>
+      <hr/> -->
 
       <!-- Chestnut Collared Longspur-->
-      <div class="card mb-3" style="max-width: 540px">
+      <!-- <div class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="birds/longspur.jpeg" alt="Chestnut Collared Longspur" />
@@ -195,10 +183,10 @@
           </div>
         </div>
       </div>
-      <hr/>
+      <hr/> -->
 
       <!-- Common Nighthawk-->
-      <div class="card mb-3" style="max-width: 540px">
+      <!-- <div class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="birds/nighthawk.jpeg" alt="Common Nighthawk" />
@@ -218,10 +206,10 @@
           </div>
         </div>
       </div>
-      <hr/>
+      <hr/> -->
 
       <!-- Common Raven-->
-      <div class="card mb-3" style="max-width: 540px">
+      <!-- <div class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="birds/raven.jpeg" alt="Common Raven" />
@@ -241,10 +229,10 @@
           </div>
         </div>
       </div>
-      <hr/>
+      <hr/> -->
 
       <!-- Elf Owl-->
-      <div class="card mb-3" style="max-width: 540px">
+      <!-- <div class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="birds/elf-owl.jpeg" alt="Elf Owl" />
@@ -264,10 +252,10 @@
           </div>
         </div>
       </div>
-      <hr/>
+      <hr/> -->
 
       <!-- Euporean Starlings-->
-      <div class="card mb-3" style="max-width: 540px">
+      <!-- <div class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="birds/starling.jpeg" alt="Euporean Starlings" />
@@ -287,10 +275,10 @@
           </div>
         </div>
       </div>
-      <hr/>
+      <hr/> -->
 
       <!-- Golden Crowned Kinglet-->
-      <div class="card mb-3" style="max-width: 540px">
+      <!-- <div class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="birds/kinglet.jpeg" alt="Golden Crowned Kinglet" />
@@ -310,10 +298,10 @@
           </div>
         </div>
       </div>
-      <hr/>
+      <hr/> -->
 
       <!--Great Tailed Gackle-->
-      <div class="card mb-3" style="max-width: 540px">
+      <!-- <div class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="birds/gackle.jpeg" alt="Great Tailed Gackle" />
@@ -333,10 +321,10 @@
           </div>
         </div>
       </div>
-      <hr/>
+      <hr/> -->
 
       <!-- Green Kingfisher-->
-      <div class="card mb-3" style="max-width: 540px">
+      <!-- <div class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="birds/kingfisher.jpeg" alt="Green Kingfisher" />
@@ -356,10 +344,10 @@
           </div>
         </div>
       </div>
-      <hr/>
+      <hr/> -->
 
       <!--Green Tailed Towhee-->
-      <div class="card mb-3" style="max-width: 540px">
+      <!-- <div class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="birds/towhee.jpeg" alt="Green Tailed Towhee" />
@@ -379,10 +367,10 @@
           </div>
         </div>
       </div>
-      <hr/>
+      <hr/> -->
 
       <!-- Horned Lark-->
-      <div class="card mb-3" style="max-width: 540px">
+      <!-- <div class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="birds/lark.jpeg" alt="Horned Lark" />
@@ -402,10 +390,10 @@
           </div>
         </div>
       </div>
-      <hr/>
+      <hr/> -->
 
       <!-- Lawrence Goldfinch-->
-      <div class="card mb-3" style="max-width: 540px">
+      <!-- <div class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="birds/goldfinch.jpeg" alt="Lawrence Goldfinch" />
@@ -425,7 +413,7 @@
           </div>
         </div>
       </div>
-      <hr/>
+      <hr/> -->
 
       <!-- Loggerhead Shrike-->
       <!-- <div class="card mb-3" style="max-width: 540px">
@@ -771,7 +759,6 @@
         </div>
       </div>
       <hr/> -->
-      <p class="end">Sapmle Page End Here</p>
     </div>
     <script src="bird-call.js"></script>
   </body>
