@@ -127,6 +127,25 @@ ul{
     padding: 10px;
 }
 
+#bird-about-info{
+    font-size: 20px;
+}
+
+#know-more-btn{
+    margin-top:5px;
+    padding: 6px;
+    border-radius: 15px;
+}
+
+#know-more-btn a{
+    text-decoration: none;
+    font-size:15px ;
+}
+
+#bird-audio{
+    margin-top:150px;
+    /* border:2px solid blue; */
+}
 /* .navbar{
     display: flex;
     background-color: rgb(63, 62, 62);
