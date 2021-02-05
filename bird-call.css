@@ -22,7 +22,7 @@
     background-color: rgb(63, 62, 62);
     width:100%;
     top:0;
-    position:sticky;
+    /* position:sticky; */
     display: flex;
     justify-content: space-between;
 }
@@ -128,7 +128,7 @@ ul{
 }
 
 #bird-about-info{
-    font-size: 20px;
+    font-size: 17px;
 }
 
 #know-more-btn{
