@@ -103,7 +103,7 @@ ul{
 }
 
 .list-box{
-    border:4px solid black;
+    /* border:4px solid black; */
     margin:20px
 }
 
@@ -145,6 +145,28 @@ ul{
 #bird-audio{
     margin-top:150px;
     /* border:2px solid blue; */
+}
+
+#title{
+    background-color: orange;
+    text-align: center;
+}
+
+#about{
+    background-color: black;
+    color:white;
+}
+
+#melodies{
+    background-color: gray;
+}
+
+#contact{
+    background-color: black;
+}
+
+.list-box{
+    background-color: whitesmoke;
 }
 /* .navbar{
     display: flex;
