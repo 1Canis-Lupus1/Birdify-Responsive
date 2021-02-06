@@ -185,3 +185,35 @@ ul{
 #disclaimer{
     /* background-color: red; */
 }
+
+@media only screen and (min-width: 760px){
+    #bird-about{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .img-nav{
+        display: flex;
+        width: auto;
+    }
+    .nav-items{
+        display: flex;
+        justify-content: flex-end;
+        /* background-color: black; */
+        padding-right: 30px;
+        font-size:30px;
+    }
+    #head-text{
+        display: flex;
+        flex-direction: row;
+        /* background-color: black; */
+        width: 40%;
+        padding-left:80px ;
+        font-size:50px;
+    }
+    #logo2{
+        background-color: black;
+        margin-right: 100px;
+        height:20vh;
+    }
+}
