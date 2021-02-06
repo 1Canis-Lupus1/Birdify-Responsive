@@ -57,6 +57,18 @@
     font-size: 20px;
 }
 
+.disclaimer{
+    color:white;
+    text-decoration: none;
+    margin-top:20px;
+    margin-left:15px;
+}
+
+.disclaimer:hover{
+    color:orange;
+    font-size:20px;
+}
+
 .contact{
     color:white;
     text-decoration:none;
@@ -168,4 +180,8 @@ ul{
 
 .list-box{
     background-color: whitesmoke;
+}
+
+#disclaimer{
+    /* background-color: red; */
 }
